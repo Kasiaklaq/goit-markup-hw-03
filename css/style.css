@@ -10,6 +10,14 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+}
+
+h2,h3 {
+    margin: 0;
+}
+
 .header-web {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -18,6 +26,9 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-studio {
@@ -28,9 +39,10 @@ a {
     color: #f4f4fd;
 }
 
-ul,
-ol {
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-styles-link {
@@ -38,6 +50,7 @@ ol {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .nav-styles-link:hover,
@@ -54,6 +67,7 @@ address {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .link-address:hover,
@@ -61,7 +75,7 @@ address {
     color: #404bbf;
 }
 
-.main-section-style {
+.first {
     background-color: #2e2f42;
 }
 
@@ -104,10 +118,26 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: calc((100% - 72px) / 4);
+}
+
+.second-section-list {
+    display: flex;
+    gap: 24px;
 }
 
 .second-header {
     color: #2e2f42;
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .our-team-section-style {
@@ -116,6 +146,8 @@ address {
 
 .team-item {
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-header {
@@ -164,6 +196,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center
 }
 
 .our-portfolio-paragraph {
@@ -173,6 +206,7 @@ address {
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
+    width: calc((100% - 48px) / 3);
 }
 
 .footer-styles {
@@ -185,4 +219,59 @@ address {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
+}
+
+div {
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li a {
+    padding: 24px 0;
+}
+
+.nav-style {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-styles-link {
+    padding: 24px 0;
+}
+
+.address-style {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+section.fourth div {
+    flex-direction: column;
+}
+
+section.third div {
+    flex-direction: column;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
