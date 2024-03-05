@@ -318,7 +318,6 @@ section.first div {
 .footer-styles {
     background-color: #2e2f42;
     padding: 100px 0;
-    height: 312px;
 }
 
 .app-name {
@@ -354,8 +353,6 @@ div {
     /* outline: 2px solid red; */
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -461,15 +458,15 @@ border-bottom: 1px solid #e7e9fc,
 
 .footer-web {
 font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-    margin-right: 76px;
-    padding: 24px 0;
-    display: inline-block;
-    margin-bottom: 16px;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+text-decoration: none;
+margin-right: 76px;
+padding: 24px 0;
+display: inline-block;
+margin-bottom: 16px;
 }
