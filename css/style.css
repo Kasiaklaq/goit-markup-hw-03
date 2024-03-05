@@ -133,7 +133,7 @@ address {
     text-align: center;
     font-size: 700;
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 8px;
 }
 
 .button-style {
@@ -236,7 +236,7 @@ section.first div {
 }
 
 .our-team-header {
-    margin-bottom: 8px;
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
