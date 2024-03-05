@@ -208,6 +208,7 @@ section.first div {
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
+        margin-bottom: 72px;
 }
 
 .third {
