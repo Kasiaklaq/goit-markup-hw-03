@@ -133,6 +133,7 @@ address {
     text-align: center;
     font-weight: 700;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .button-style {
@@ -337,10 +338,8 @@ footer div {
 
 .container {
     width: 1158px;
-    /* outline: 2px solid red; */
     margin: 0 auto;
     padding: 0 15px;
-    justify-content: space-between;
 }
 
 .navigation {
@@ -368,8 +367,10 @@ nav ul li a {
     justify-content: flex-end;
 }
 
-.container-header-wrap {
+.header-wrap {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 section.fourth div {
@@ -398,14 +399,13 @@ section.heading div {
 }
 
 header div {
-    justify-content: space-between;
+
 
 }
 
 .menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .ul-list-class {
