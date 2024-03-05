@@ -469,3 +469,18 @@ section.fourth div {
 header {
 border-bottom: 1px solid #e7e9fc,
 }
+
+.footer-web {
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    margin-right: 76px;
+    padding: 24px 0;
+    display: inline-block;
+    margin-bottom: 16px;
+}
